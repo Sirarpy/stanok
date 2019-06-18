@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@import 'bootstrap-grid.css';
+@import 'icons.css';
+
+
+@media(max-width:992px) {
+    .hide-under-992px {
+        display: none
+    }
+}
+
+
+.icon-set-container {
+    display: block;
+    width: calc(100% + 30px);
+    left: -15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center
+}
+
+.glyph.fs1 {
+    position: relative;
+    font-size: 20px;
+    margin: 10px 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+    border-radius: 4px;
+    flex: 1 1 calc(25% - 30px);
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    transition: .3s;
+    color: #666
+}
+
+.glyph.fs1:hover {
+    transform: translateY(-5px);
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .15)
+}
+
+.glyph.fs1:hover span:not([class*=mls]) {
+    background-color: #fff;
+    color: #333
+}
+
+.glyph.fs1 .fs0,
+.glyph.fs1 fieldset {
+    display: none
+}
+
+.glyph.fs1 span:not([class*=mls]) {
+    vertical-align: middle;
+    top: -4px;
+    height: 40px;
+    width: 40px;
+    background: rgba(0, 0, 0, .04);
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 24px;
+    transition: .3s;
+    position: relative;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.glyph.fs1 .mls:not([class*=icon-]) {
+    max-width: 80%;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 20px;
+    top: 0;
+    vertical-align: middle;
+    padding-left: 55px
+}
+
+
