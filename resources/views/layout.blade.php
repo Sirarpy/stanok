@@ -129,7 +129,7 @@
                                aria-expanded="false">Ոչ սննդային սարքավորումներ</a>
                             <ul class="dropdown-menu dropdown-menu-left">
                                 <li><a href="#">Կանվեյեր</a></li>
-                                @foreach($categories as $category)
+                                @foreach($categories as $category)git
                                     @if($category->type == 0)
                                         <li><a href="#">{{$category->name}}</a></li>
                                     @endif
