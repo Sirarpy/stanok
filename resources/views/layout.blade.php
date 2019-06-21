@@ -136,8 +136,6 @@
                                 @endforeach
                             </ul>
                         </li>
-
-
                         <li><a href="{{route('about-page')}}">Մեր մասին</a></li>
 
                         <li><a href="{{route('contact-page')}}">Կապ</a></li>

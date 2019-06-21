@@ -20,7 +20,7 @@ Route::get('/product/{id}', '\App\Http\Controllers\ProductController@detail')->n
 Auth::routes();
 
 
-Route::get('/admin', 'AdminController@index')->name('home');
+Route::get('/home', 'AdminController@index')->name('home');
 
 
 Route::group(['middleware' => 'auth'], function () {

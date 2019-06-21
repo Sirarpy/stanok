@@ -23,10 +23,6 @@
 </div>
 <!-- Video END -->
 
-
-
-
-
 <!-- About Section START -->
 <div class="section-block-bg" >  <!-- style="background-image: url(img/bg/bg1.jpg);" -->
     <div class="container">
@@ -54,8 +50,6 @@
     </div>
 </div>
 <!-- About Section START -->
-
-
 
 <!-- Projects Grid START -->
 <div class="section-block">
@@ -126,8 +120,6 @@
 </div>
 <!-- Projects Grid END -->
 
-
-
 <!-- Countup Section START -->
 <div class="section-block-parallax" style="background-image: url('img/coffee-3.jpg');">
     <div class="container">
@@ -166,5 +158,37 @@
     </div>
 </div>
 <!-- Countup Section END -->
+
+<!-- Clients START -->
+<div class="section-block container">
+    <div class="">
+        <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="section-heading">
+                <h2 class="wow animated fadeInLeft">Our Clients</h2>
+                <h3>Great Clients</h3>
+            </div>
+        </div>
+        <div class="col-md-9 col-sm-9 col-xs-12">
+            <div class="owl-carousel owl-theme" id="our-clients">
+                <div class="client-item">
+                    <img src="img/partner/cc.png" alt="img">
+                </div>
+                <div class="client-item">
+                    <img src="img/partner/cc.png" alt="img">
+                </div>
+                <div class="client-item">
+                    <img src="img/partner/cc.png" alt="img">
+                </div>
+                <div class="client-item">
+                    <img src="img/partner/cc.png" alt="img">
+                </div>
+                <div class="client-item">
+                    <img src="img/partner/cc.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Clients END -->
 
 @endsection

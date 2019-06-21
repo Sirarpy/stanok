@@ -56,10 +56,6 @@
 <!-- About Section START -->
 
 
-
-
-
-
 <!-- Testmonials START -->
 <div class="section-block-parallax" style="background-image: url('http://via.placeholder.com/1528x346');">
     <div class="container">
@@ -83,8 +79,6 @@
     </div>
 </div>
 <!-- Testmonials END -->
-
-
 
 <!-- Clients START -->
 <div class="section-block container">
